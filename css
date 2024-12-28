@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.navbar {
+    background-color: #0066cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 120px;
+}
+
+.navbar .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .menu ul li {
+    margin-left: 20px;
+}
+
+.navbar .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.wallet {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wallet h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.wallet .balance {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.action-btn {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #004c99;
+}
+
+.features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features ul li {
+    margin-bottom: 10px;
+}
+
+.features ul li button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.features ul li button:hover {
+    background-color: #218838;
+}

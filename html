@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Paytm_logo.png" alt="Paytm" />
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="wallet">
+            <h2>Your Wallet</h2>
+            <p class="balance">₹ 1,500</p>
+        </div>
+
+        <div class="actions">
+            <button class="action-btn" onclick="addMoney()">Add Money</button>
+            <button class="action-btn" onclick="sendMoney()">Send Money</button>
+            <button class="action-btn" onclick="viewHistory()">Transaction History</button>
+        </div>
+
+        <div class="features">
+            <h3>Features</h3>
+            <ul>
+                <li><button onclick="payBill()">Pay Bills</button></li>
+                <li><button onclick="recharge()">Mobile Recharge</button></li>
+                <li><button onclick="payForShopping()">Pay for Shopping</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
